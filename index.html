@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Form</title>
+</head>
+<body>
+    <section class="backGround" id="wrapper">
+        <div class="wrapper_form"   >
+            <div class="form_button">
+                <button class="form_btn" id="btn_register">ثبت نام </button>
+                <button class="form_btn form_btnActive " id="btn_login">ورود</button>
+            </div>
+            <form action="#" class="form" id="wrapper_login" style="display: block;">
+                <div class="formBox">
+                    <label for="" class="formBox_label">ایمیل</label>
+                    <input type="email" name="email" id="input_email" class="formBox_input" >
+                </div>
+                <div class="formBox">
+                    <label for="" class="formBox_label">رمزعبور</label>
+                    <input type="password" name="password" id="input_password" class="formBox_input">
+                    
+                </div>
+                <span class="text_error"></span>
+                <div class="formCheck">
+                    <input type="checkbox" class="formCheck_input">
+                    <span class="formCheck_text"> مرا به خاطر بسپار
+                    </span>
+                </div>
+                <button class="submitForm" id="form_login">ورود</button>
+            </form>
+            <form action="#" class="form" id="wrapper_register" style="display: none;">
+                <div class="formBox">
+                    <label for="" class="formBox_label">نام کاربری</label>
+                    <input type="text" name="name" id="input_user"  class="formBox_input">
+                </div>
+                <div class="formBox">
+                    <label for="" class="formBox_label">ایمیل</label>
+                    <input type="email" name="email" id="inputRegister_email" class="formBox_input">
+                </div>
+                <div class="formBox">
+                    <label for="" class="formBox_label">رمزعبور</label>
+                    <input type="password" name="password" id="inputRegister_password" class="formBox_input">
+                </div>
+                <div class="formBox">
+                    <label for="" class="formBox_label">تکرار رمز عبور</label>
+                    <input type="password" name="password" id="inputRegister_password" class="formBox_input">
+                </div>
+                <span class="error_text"></span>
+                <div class="formCheck">
+                    <input type="checkbox" class="formCheck_input">
+                    <span class="formCheck_text">تمامی قوانین سایت را می‌پذیرم.
+                    </span>
+                </div>
+
+                <button class="submitForm" id="form_register">ثبت نام </button>
+            </form>
+         </div>
+    </section>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>

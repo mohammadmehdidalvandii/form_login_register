@@ -1,0 +1,30 @@
+@import url(./reset.css);
+
+/* ;;;;;; font  ;;;;;; */
+@font-face {
+    font-family: iranYekan;
+    src: url(../font/Yekan.ttf);
+}
+
+
+/* ;;;;;; root === variable ;;;;; */
+
+:root{
+    --font-yekan: iranYekan;
+    --color-black: #130B16;
+    --color-whiteBlue: #DCFFFF;
+    --color-blue : #00BCD4; 
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-yekan);
+    background-image: url(../img/3.jpg);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100dvh;
+}
